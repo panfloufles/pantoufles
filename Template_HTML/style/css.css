@@ -1,0 +1,122 @@
+body{
+    background-image: url(../img/bg.jpg);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: azure;
+    background-repeat:no-repeat;
+
+}
+.HDP{
+    display: flex;
+    padding: 15px;
+    margin-left: 40px;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 50%;
+    font-size: 8px;
+    font-weight: lighter;
+}
+.logo{
+    width: 150px;
+}
+.LoremHDP{
+    margin-top: 5%;
+    margin-left: 8%;
+    font-size: 100px;
+    width: 60%;
+    font-weight: bold;
+}
+.scrollHDP{
+    margin-top: 40vh;
+    margin-left: 8%;
+    display: flex;
+    align-items: center;
+}
+.tri{
+    margin-bottom: 3px;
+    margin-left: 5px;
+    font-size: 25px;
+    transform: rotate(180deg);
+}
+.MDP{
+    margin-top: 270px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.MDP1,.MDP2,.MDP3{
+    width: 15%;
+
+}
+.MDP1log,.MDP2log,.MDP3log{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.MDP1txt1,.MDP2txt1,.MDP3txt1,.MDP1txt2,.MDP2txt2,.MDP3txt2{
+    justify-content: center;
+    display: flex;
+}
+.txt{
+    margin-top: 300px;
+    color: black;
+    margin-left: 5%;
+    font-size: 85px;
+}
+.greenbox{
+    background: rgb(111, 209, 111);
+    padding: 2px 50px;
+    position: absolute;
+    color:  rgb(111, 209, 111);
+    margin-left: 5%;
+}
+.vente{
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+}
+.vt{
+    position: absolute;
+    bottom: -1450px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    left: 5%;
+}
+.vente43,.vente33,.vente23,.vente13{
+    background-color: rgb(111, 209, 111);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+.vt11,.vt21,.vt31,.vt41{
+    display: table-column
+}
+.vt1{
+    margin-left: 10%;
+}
+.vt2{
+    margin-left: 15%;
+}
+.vt3{
+    margin-left: 15%;
+}
+.vt4{
+    margin-left: 15%;
+}
+.hit{
+    position: absolute;
+    bottom: -1480px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    opacity: 0.5;
+    background-color: rgb(194, 194, 194);
+    left: 5%;
+    padding: 50px;
+    color: rgb(194, 194, 194);
+}
